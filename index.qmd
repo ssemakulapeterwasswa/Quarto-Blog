@@ -11,7 +11,7 @@ execute:
 
 ## Introduction
 
-![](../../images/skytrain/skytrain.jpg){fig-alt="Vancouver SkyTrain rapid transit system" fig-cap="The SkyTrain rapid transit system is a central part of daily life in Metro Vancouver, connecting residential neighborhoods to major employment and commercial centers."}
+![](images/skytrain/skytrain.jpg){fig-alt="Vancouver SkyTrain rapid transit system" fig-cap="The SkyTrain rapid transit system is a central part of daily life in Metro Vancouver, connecting residential neighborhoods to major employment and commercial centers."}
 
 
 
@@ -24,7 +24,7 @@ Specifically, we investigate a simple question: **can distance to the nearest Sk
 ---
 
 ## Why SkyTrain Access Matters
-![](../../images/skytrain/skytrain2.jpg){fig-cap="SkyTrain stations provide fast and reliable access across Metro Vancouver, making proximity to transit a valuable housing feature."}
+![](images/skytrain/skytrain2.jpg){fig-cap="SkyTrain stations provide fast and reliable access across Metro Vancouver, making proximity to transit a valuable housing feature."}
 
 
 The SkyTrain system is the backbone of public transit in Metro Vancouver. It serves hundreds of thousands of passengers daily and plays a central role in how residents move across the region. For many people, living near a SkyTrain station means shorter commute times, fewer transportation expenses, and greater flexibility in daily life.
