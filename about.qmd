@@ -1,0 +1,26 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twi2tter.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/ssemakula-peter-wasswa-04a8a7283
+
+    - icon: github
+      text: Github
+      href: https://github.com/ssemakulapeterwasswa
+
+---
+
+About this blog
+
+This blog was written as part of a data science communication exercise, with the goal of demonstrating how data-driven insights can be clearly explained to a non-technical audience. Using Vancouver’s housing market as a real-world context, the post explores how a single, intuitive feature distance to the nearest SkyTrain station relates to housing prices.
+
+Rather than focusing on complex models or technical details, this blog emphasizes interpretability and visual reasoning. Simple visualizations and straightforward statistical techniques are used to highlight patterns that are easy to understand and relevant to everyday decision-making. The analysis is intentionally simplified to prioritize clarity, transparency, and effective communication.
+
+The intended audience includes home buyers, urban planners, students, and anyone interested in understanding how location and transit accessibility can influence housing markets. While the results do not claim to capture all factors that determine housing prices, they illustrate how data science can be used as a practical tool for exploring and explaining real-world phenomena.

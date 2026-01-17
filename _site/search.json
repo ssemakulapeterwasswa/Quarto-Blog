@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog\nThis blog was written as part of a data science communication exercise, with the goal of demonstrating how data-driven insights can be clearly explained to a non-technical audience. Using Vancouver’s housing market as a real-world context, the post explores how a single, intuitive feature distance to the nearest SkyTrain station relates to housing prices.\nRather than focusing on complex models or technical details, this blog emphasizes interpretability and visual reasoning. Simple visualizations and straightforward statistical techniques are used to highlight patterns that are easy to understand and relevant to everyday decision-making. The analysis is intentionally simplified to prioritize clarity, transparency, and effective communication.\nThe intended audience includes home buyers, urban planners, students, and anyone interested in understanding how location and transit accessibility can influence housing markets. While the results do not claim to capture all factors that determine housing prices, they illustrate how data science can be used as a practical tool for exploring and explaining real-world phenomena."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Predicting Vancouver House Prices Using Distance to the Nearest SkyTrain Station",
+    "section": "",
+    "text": "Vancouver’s housing market is widely recognized as one of the most expensive in North America. For home buyers, renters, and policymakers alike, understanding what drives housing prices is a persistent challenge. Prices vary dramatically across neighborhoods, even for homes with similar physical characteristics. While factors such as square footage, age of the building, and number of bedrooms are commonly discussed, location often plays an equally important role.\nIn dense urban environments like Vancouver, access to public transportation is especially valuable. The SkyTrain network connects major residential areas to employment centers, universities, and commercial hubs, reducing commute times and transportation costs. As a result, proximity to SkyTrain stations is often viewed as a desirable feature when choosing where to live. This blog explores whether that intuition can be supported using data.\nSpecifically, we investigate a simple question: can distance to the nearest SkyTrain station help predict housing prices in Vancouver? Rather than building a complex machine learning system, we focus on a single, easy-to-interpret feature to demonstrate how even simple data science methods can provide meaningful insights."
+  },
+  {
+    "objectID": "posts/skytrain-housing/index.html",
+    "href": "posts/skytrain-housing/index.html",
+    "title": "Predicting Vancouver House Prices Using Distance to the Nearest SkyTrain Station",
+    "section": "",
+    "text": "Vancouver’s housing market is widely recognized as one of the most expensive in North America. For home buyers, renters, and policymakers alike, understanding what drives housing prices is a persistent challenge. Prices vary dramatically across neighborhoods, even for homes with similar physical characteristics. While factors such as square footage, age of the building, and number of bedrooms are commonly discussed, location often plays an equally important role.\nIn dense urban environments like Vancouver, access to public transportation is especially valuable. The SkyTrain network connects major residential areas to employment centers, universities, and commercial hubs, reducing commute times and transportation costs. As a result, proximity to SkyTrain stations is often viewed as a desirable feature when choosing where to live. This blog explores whether that intuition can be supported using data.\nSpecifically, we investigate a simple question: can distance to the nearest SkyTrain station help predict housing prices in Vancouver? Rather than building a complex machine learning system, we focus on a single, easy-to-interpret feature to demonstrate how even simple data science methods can provide meaningful insights."
+  },
+  {
+    "objectID": "posts/skytrain-housing/index.html#introduction",
+    "href": "posts/skytrain-housing/index.html#introduction",
+    "title": "Predicting Vancouver House Prices Using Distance to the Nearest SkyTrain Station",
+    "section": "",
+    "text": "Vancouver’s housing market is widely recognized as one of the most expensive in North America. For home buyers, renters, and policymakers alike, understanding what drives housing prices is a persistent challenge. Prices vary dramatically across neighborhoods, even for homes with similar physical characteristics. While factors such as square footage, age of the building, and number of bedrooms are commonly discussed, location often plays an equally important role.\nIn dense urban environments like Vancouver, access to public transportation is especially valuable. The SkyTrain network connects major residential areas to employment centers, universities, and commercial hubs, reducing commute times and transportation costs. As a result, proximity to SkyTrain stations is often viewed as a desirable feature when choosing where to live. This blog explores whether that intuition can be supported using data.\nSpecifically, we investigate a simple question: can distance to the nearest SkyTrain station help predict housing prices in Vancouver? Rather than building a complex machine learning system, we focus on a single, easy-to-interpret feature to demonstrate how even simple data science methods can provide meaningful insights."
+  },
+  {
+    "objectID": "posts/skytrain-housing/index.html#why-skytrain-access-matters",
+    "href": "posts/skytrain-housing/index.html#why-skytrain-access-matters",
+    "title": "Predicting Vancouver House Prices Using Distance to the Nearest SkyTrain Station",
+    "section": "Why SkyTrain Access Matters",
+    "text": "Why SkyTrain Access Matters\n\nThe SkyTrain system is the backbone of public transit in Metro Vancouver. It serves hundreds of thousands of passengers daily and plays a central role in how residents move across the region. For many people, living near a SkyTrain station means shorter commute times, fewer transportation expenses, and greater flexibility in daily life.\nFrom a housing perspective, these benefits translate into increased demand for homes located close to rapid transit. Buyers are often willing to pay a premium for convenience, especially in a city where traffic congestion and parking limitations are common. This makes transit accessibility a strong candidate for understanding price differences across neighborhoods."
+  },
+  {
+    "objectID": "posts/skytrain-housing/index.html#the-data-used-in-this-analysis",
+    "href": "posts/skytrain-housing/index.html#the-data-used-in-this-analysis",
+    "title": "Predicting Vancouver House Prices Using Distance to the Nearest SkyTrain Station",
+    "section": "The Data Used in This Analysis",
+    "text": "The Data Used in This Analysis\nTo keep the analysis simple and interpretable, we use a simplified dataset containing three key pieces of information:\n\nProperty sale prices\n\nGeographic coordinates (latitude and longitude) of homes\n\nGeographic coordinates of SkyTrain stations across Metro Vancouver\n\nUsing geographic coordinates, we calculate the straight-line (geodesic) distance from each home to its nearest SkyTrain station. This distance, measured in kilometers, becomes the single predictor used throughout the analysis.\nBy focusing on one feature, we avoid unnecessary complexity and make the results easier to explain to a broad audience."
+  },
+  {
+    "objectID": "posts/skytrain-housing/index.html#exploring-the-relationship-between-distance-and-price",
+    "href": "posts/skytrain-housing/index.html#exploring-the-relationship-between-distance-and-price",
+    "title": "Predicting Vancouver House Prices Using Distance to the Nearest SkyTrain Station",
+    "section": "Exploring the Relationship Between Distance and Price",
+    "text": "Exploring the Relationship Between Distance and Price\nBefore fitting any model, it is important to visually explore the data. A scatter plot allows us to examine how housing prices vary as distance from SkyTrain stations increases.\nIn many urban real estate markets, including Vancouver, we expect to see a downward trend: homes closer to transit stations tend to be more expensive, while those farther away generally cost less. Visual exploration helps confirm whether this intuition appears in the data.\nTo begin, we look at how housing prices change as homes are located farther away from SkyTrain stations. Each point in the figure below represents a single home. The horizontal position shows how far the home is from the nearest SkyTrain station, while the vertical position shows its price. If proximity to transit matters, we would expect homes closer to stations to appear higher on the chart.\n\n\n\n\n\n\n\n\n\nBefore interpreting the price relationship further, it is helpful to understand how homes are distributed in terms of transit access. The following chart shows how many homes fall at different distances from SkyTrain stations. This helps us see whether most homes are clustered close to transit or spread farther away.\n\n\n\n\n\n\n\n\n\nHousing prices are not evenly spread. Some homes are much more expensive than others, and this can affect how patterns appear in the data. The next chart shows the distribution of housing prices in our dataset, helping us understand the overall range and spread of prices before modeling.\n\n\n\n\n\n\n\n\n\nTo summarize the overall trend seen in the plots, we fit a straight line that represents the average relationship between distance to SkyTrain and housing price. This line does not predict exact prices for individual homes. Instead, it provides a simple summary of how prices tend to change as distance increases.\n\n\n(np.float64(-151772.19946817379), np.float64(1673089.3972476325))\n\n\nIndividual home prices can vary widely, which can make scatter plots look noisy. To make the pattern clearer, we group homes into distance ranges and compute the average price within each group. This allows us to see the general trend more clearly without being distracted by individual fluctuations.\n\n\n\n\n\n\n\n\n\nThe next figure combines the original data points with the fitted trend line. This line represents the typical change in housing price as distance from SkyTrain increases. The downward slope visually reinforces the idea that homes farther from transit tend to be less expensive on average.\n\n\n\n\n\n\n\n\n\nFinally, we examine how well the simple trend line fits the data. The chart below shows the difference between the actual home prices and the prices predicted by the line. When these differences are randomly scattered around zero, it suggests that the simple model captures the main pattern reasonably well.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nKey takeaway: Homes closer to SkyTrain stations tend to be more expensive, even when considering only a single feature like distance."
+  },
+  {
+    "objectID": "posts/skytrain-housing/index.html#a-simple-predictive-model",
+    "href": "posts/skytrain-housing/index.html#a-simple-predictive-model",
+    "title": "Predicting Vancouver House Prices Using Distance to the Nearest SkyTrain Station",
+    "section": "A Simple Predictive Model",
+    "text": "A Simple Predictive Model\nWe use a simple linear regression model with distance as the only predictor."
+  },
+  {
+    "objectID": "posts/skytrain-housing/index.html#what-this-tells-us-and-what-it-doesnt",
+    "href": "posts/skytrain-housing/index.html#what-this-tells-us-and-what-it-doesnt",
+    "title": "Predicting Vancouver House Prices Using Distance to the Nearest SkyTrain Station",
+    "section": "What This Tells Us — and What It Doesn’t",
+    "text": "What This Tells Us — and What It Doesn’t\nThis relationship highlights association, not causation."
+  },
+  {
+    "objectID": "posts/skytrain-housing/index.html#practical-implications",
+    "href": "posts/skytrain-housing/index.html#practical-implications",
+    "title": "Predicting Vancouver House Prices Using Distance to the Nearest SkyTrain Station",
+    "section": "Practical Implications",
+    "text": "Practical Implications\nThese findings are useful for buyers, renters, and urban planners."
+  },
+  {
+    "objectID": "posts/skytrain-housing/index.html#conclusion",
+    "href": "posts/skytrain-housing/index.html#conclusion",
+    "title": "Predicting Vancouver House Prices Using Distance to the Nearest SkyTrain Station",
+    "section": "Conclusion",
+    "text": "Conclusion\nSimple data science models can provide meaningful insights into complex housing markets."
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Predicting Vancouver House Prices Using Distance to the Nearest SkyTrain Station",
+    "section": "",
+    "text": "Vancouver’s housing market is widely recognized as one of the most expensive in North America. For home buyers, renters, and policymakers alike, understanding what drives housing prices is a persistent challenge. Prices vary dramatically across neighborhoods, even for homes with similar physical characteristics. While factors such as square footage, age of the building, and number of bedrooms are commonly discussed, location often plays an equally important role.\nIn dense urban environments like Vancouver, access to public transportation is especially valuable. The SkyTrain network connects major residential areas to employment centers, universities, and commercial hubs, reducing commute times and transportation costs. As a result, proximity to SkyTrain stations is often viewed as a desirable feature when choosing where to live. This blog explores whether that intuition can be supported using data.\nSpecifically, we investigate a simple question: can distance to the nearest SkyTrain station help predict housing prices in Vancouver? Rather than building a complex machine learning system, we focus on a single, easy-to-interpret feature to demonstrate how even simple data science methods can provide meaningful insights."
+  },
+  {
+    "objectID": "index.html#why-skytrain-access-matters",
+    "href": "index.html#why-skytrain-access-matters",
+    "title": "Predicting Vancouver House Prices Using Distance to the Nearest SkyTrain Station",
+    "section": "Why SkyTrain Access Matters",
+    "text": "Why SkyTrain Access Matters\n\nThe SkyTrain system is the backbone of public transit in Metro Vancouver. It serves hundreds of thousands of passengers daily and plays a central role in how residents move across the region. For many people, living near a SkyTrain station means shorter commute times, fewer transportation expenses, and greater flexibility in daily life.\nFrom a housing perspective, these benefits translate into increased demand for homes located close to rapid transit. Buyers are often willing to pay a premium for convenience, especially in a city where traffic congestion and parking limitations are common. This makes transit accessibility a strong candidate for understanding price differences across neighborhoods."
+  },
+  {
+    "objectID": "index.html#the-data-used-in-this-analysis",
+    "href": "index.html#the-data-used-in-this-analysis",
+    "title": "Predicting Vancouver House Prices Using Distance to the Nearest SkyTrain Station",
+    "section": "The Data Used in This Analysis",
+    "text": "The Data Used in This Analysis\nTo keep the analysis simple and interpretable, we use a simplified dataset containing three key pieces of information:\n\nProperty sale prices\n\nGeographic coordinates (latitude and longitude) of homes\n\nGeographic coordinates of SkyTrain stations across Metro Vancouver\n\nUsing geographic coordinates, we calculate the straight-line (geodesic) distance from each home to its nearest SkyTrain station. This distance, measured in kilometers, becomes the single predictor used throughout the analysis.\nBy focusing on one feature, we avoid unnecessary complexity and make the results easier to explain to a broad audience."
+  },
+  {
+    "objectID": "index.html#exploring-the-relationship-between-distance-and-price",
+    "href": "index.html#exploring-the-relationship-between-distance-and-price",
+    "title": "Predicting Vancouver House Prices Using Distance to the Nearest SkyTrain Station",
+    "section": "Exploring the Relationship Between Distance and Price",
+    "text": "Exploring the Relationship Between Distance and Price\nBefore fitting any model, it is important to visually explore the data. A scatter plot allows us to examine how housing prices vary as distance from SkyTrain stations increases.\nIn many urban real estate markets, including Vancouver, we expect to see a downward trend: homes closer to transit stations tend to be more expensive, while those farther away generally cost less. Visual exploration helps confirm whether this intuition appears in the data.\nTo begin, we look at how housing prices change as homes are located farther away from SkyTrain stations. Each point in the figure below represents a single home. The horizontal position shows how far the home is from the nearest SkyTrain station, while the vertical position shows its price. If proximity to transit matters, we would expect homes closer to stations to appear higher on the chart.\n\n\n\n\n\n\n\n\n\nBefore interpreting the price relationship further, it is helpful to understand how homes are distributed in terms of transit access. The following chart shows how many homes fall at different distances from SkyTrain stations. This helps us see whether most homes are clustered close to transit or spread farther away.\n\n\n\n\n\n\n\n\n\nHousing prices are not evenly spread. Some homes are much more expensive than others, and this can affect how patterns appear in the data. The next chart shows the distribution of housing prices in our dataset, helping us understand the overall range and spread of prices before modeling.\n\n\n\n\n\n\n\n\n\nTo summarize the overall trend seen in the plots, we fit a straight line that represents the average relationship between distance to SkyTrain and housing price. This line does not predict exact prices for individual homes. Instead, it provides a simple summary of how prices tend to change as distance increases.\n\n\n(np.float64(-151772.19946817379), np.float64(1673089.3972476325))\n\n\nIndividual home prices can vary widely, which can make scatter plots look noisy. To make the pattern clearer, we group homes into distance ranges and compute the average price within each group. This allows us to see the general trend more clearly without being distracted by individual fluctuations.\n\n\n\n\n\n\n\n\n\nThe next figure combines the original data points with the fitted trend line. This line represents the typical change in housing price as distance from SkyTrain increases. The downward slope visually reinforces the idea that homes farther from transit tend to be less expensive on average.\n\n\n\n\n\n\n\n\n\nFinally, we examine how well the simple trend line fits the data. The chart below shows the difference between the actual home prices and the prices predicted by the line. When these differences are randomly scattered around zero, it suggests that the simple model captures the main pattern reasonably well.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nKey takeaway: Homes closer to SkyTrain stations tend to be more expensive, even when considering only a single feature like distance."
+  }
+]
