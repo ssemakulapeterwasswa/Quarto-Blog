@@ -183,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Before fitting any model, it is important to visually explore the data. A scatter plot allows us to examine how housing prices vary as distance from SkyTrain stations increases.</p>
 <p>In many urban real estate markets, including Vancouver, we expect to see a downward trend: homes closer to transit stations tend to be more expensive, while those farther away generally cost less. Visual exploration helps confirm whether this intuition appears in the data.</p>
 <p>To begin, we look at how housing prices change as homes are located farther away from SkyTrain stations. Each point in the figure below represents a single home. The horizontal position shows how far the home is from the nearest SkyTrain station, while the vertical position shows its price. If proximity to transit matters, we would expect homes closer to stations to appear higher on the chart.</p>
-<div id="042f9066" class="cell" data-execution_count="1">
+<div id="7f75a1c8" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -193,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p>Before interpreting the price relationship further, it is helpful to understand how homes are distributed in terms of transit access. The following chart shows how many homes fall at different distances from SkyTrain stations. This helps us see whether most homes are clustered close to transit or spread farther away.</p>
-<div id="efe3f96b" class="cell" data-execution_count="2">
+<div id="98d9e460" class="cell" data-execution_count="2">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -203,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p>Housing prices are not evenly spread. Some homes are much more expensive than others, and this can affect how patterns appear in the data. The next chart shows the distribution of housing prices in our dataset, helping us understand the overall range and spread of prices before modeling.</p>
-<div id="50a4e3f1" class="cell" data-execution_count="3">
+<div id="34c37f4e" class="cell" data-execution_count="3">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -213,13 +213,13 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p>To summarize the overall trend seen in the plots, we fit a straight line that represents the average relationship between distance to SkyTrain and housing price. This line does not predict exact prices for individual homes. Instead, it provides a simple summary of how prices tend to change as distance increases.</p>
-<div id="52c38a3f" class="cell" data-execution_count="4">
-<div class="cell-output cell-output-display" data-execution_count="18">
+<div id="c8e40c8d" class="cell" data-execution_count="4">
+<div class="cell-output cell-output-display" data-execution_count="4">
 <pre><code>(np.float64(-151772.19946817379), np.float64(1673089.3972476325))</code></pre>
 </div>
 </div>
 <p>Individual home prices can vary widely, which can make scatter plots look noisy. To make the pattern clearer, we group homes into distance ranges and compute the average price within each group. This allows us to see the general trend more clearly without being distracted by individual fluctuations.</p>
-<div id="c630aadb" class="cell" data-execution_count="5">
+<div id="2ba0e01d" class="cell" data-execution_count="5">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -229,7 +229,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p>The next figure combines the original data points with the fitted trend line. This line represents the typical change in housing price as distance from SkyTrain increases. The downward slope visually reinforces the idea that homes farther from transit tend to be less expensive on average.</p>
-<div id="84342195" class="cell" data-execution_count="6">
+<div id="320c8ee1" class="cell" data-execution_count="6">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -239,7 +239,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p>Finally, we examine how well the simple trend line fits the data. The chart below shows the difference between the actual home prices and the prices predicted by the line. When these differences are randomly scattered around zero, it suggests that the simple model captures the main pattern reasonably well.</p>
-<div id="cad8ec90" class="cell" data-execution_count="7">
+<div id="4778c97d" class="cell" data-execution_count="7">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
